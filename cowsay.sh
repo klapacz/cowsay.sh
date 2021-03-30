@@ -9,13 +9,13 @@ len=${#text}
 
 border=$(printf '%0.s─' $(seq $len))
 
-echo " .$border. "
+echo " .$border."
 
 echo "$text" | fold -sw$len | while read -r line; do
 	printf "| %-${len}s |\\n" "$line"
 done 
 
-echo " '$border' "
+echo " '$border'"
 
 echo "        \\   ^__^
          \\  (OO)\\_______

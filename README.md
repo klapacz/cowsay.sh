@@ -11,9 +11,9 @@ Simple clone of `cowsay` written in POSIX compliant shell.
 prints
 
 ```
- .─────. 
+ .─────.
 | hello |
- '─────' 
+ '─────'
         \   ^__^
          \  (OO)\_______
             (__)\       )\/\
